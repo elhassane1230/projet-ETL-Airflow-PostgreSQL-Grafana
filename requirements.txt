@@ -1,0 +1,15 @@
+# Airflow and dependencies
+apache-airflow==2.7.1  # Ajuste la version si nécessaire
+apache-airflow-providers-postgres==4.1.0  # Pour les interactions avec PostgreSQL
+
+# Requests library for API calls
+requests==2.31.0  # Pour effectuer des requêtes HTTP vers l'API OpenWeatherMap
+
+# PostgreSQL connector
+psycopg2-binary==2.9.7  # Pour la connexion à PostgreSQL
+
+# Date and time manipulation
+python-dateutil==2.8.2  # Manipulation avancée de dates
+
+# Optional: Grafana API integration (si tu souhaites interagir avec Grafana via son API)
+grafanalib==0.7.0
